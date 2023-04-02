@@ -1,0 +1,13 @@
+logging:
+  level.org.springframework: info
+
+spring:
+  application:
+    name: userAppDev
+  datasource:
+    url: jdbc:h2:mem:stage-db
+    username: admin
+    password: root
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
