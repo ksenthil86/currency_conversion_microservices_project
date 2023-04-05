@@ -15,7 +15,7 @@ import java.util.List;
 
 import static org.mockito.ArgumentMatchers.anyString;
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK,classes = CurrencyexchangeApplication.class)
 public class BaseClass {
 
     @Autowired

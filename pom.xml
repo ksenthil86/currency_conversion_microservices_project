@@ -86,7 +86,10 @@
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
 				<version>4.0.1</version>
-				<!--				<extensions>true</extensions>-->
+								<extensions>true</extensions>
+				<configuration>
+					<baseClassForTests>com.testleaf.currencyexchange.BaseClass</baseClassForTests>
+				</configuration>
 				<executions>
 					<execution>
 						<id>convert</id>
